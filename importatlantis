@@ -1,0 +1,8 @@
+#if DEBUG
+    import Atlantis
+#endif
+
+// Add to the end of `application(_:didFinishLaunchingWithOptions:)` in AppDelegate.swift or SceneDelegate.swift
+#if DEBUG
+    Atlantis.start()
+#endif
